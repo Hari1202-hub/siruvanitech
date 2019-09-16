@@ -1,21 +1,11 @@
-/*
-  Theme Name: Alstar
-  Theme URL: https://bootstrapmade.com/alstar-free-parallax-bootstrap-template/
-  Author: BootstrapMade.com
-  Author URL: https://bootstrapmade.com
-*/
 
-/* ================================
-Imports
-================================= */
+
+
 @import url("font-awesome.min.css");
 @import url("simpletextrotator.css");
 @import url("overwrite.css");
 @import url("animate.css");
 
-/* ================================
-General
-================================= */
 
 body {
   text-align: center;
@@ -143,9 +133,6 @@ margin, padding
   outline: none;
 }
 
-/* ================================
-Navbar
-================================= */
 
 nav.navbar {
   position: fixed;
@@ -208,9 +195,6 @@ nav.navbar.fixed-to-top {
   }
 }
 
-/* ================================
-Home sections
-================================= */
 
 .home-section {
   width: 100%;
@@ -273,9 +257,7 @@ Home sections
   color: #eee;
 }
 
-/* ==========================
-Parallax
-============================= */
+
 
 #parallax1 {
   background-image: url(../img/parallax/1.jpg);
@@ -283,10 +265,6 @@ Parallax
 #parallax2 {
   background-image: url(../img/parallax/2.jpg);
 }
-
-/* ================================
-Intro
-================================= */
 
 #intro {
   width: 100%;
@@ -439,9 +417,6 @@ Intro
   text-decoration: none;
 }
 
-/* ================================
-About
-================================= */
 
 #about .about-img {
   height: auto;

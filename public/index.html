@@ -54,7 +54,34 @@
   gtag('config', 'UA-145880951-1');
 </script>
 </head>
-
+<style>
+	.loader {
+				/* position: fixed;
+				left: 0px;
+				top: 0px; */
+				width: 100vh;
+				height: 100vh;
+				z-index: 1;
+			}
+			.loader img{
+				width: 100%;
+				height: 100%;
+				position: fixed;
+				left: 0px;
+				top: 0px;
+							}
+	</style>
+	
+	<div class="loader" ><img src="preloader.gif"></div>
+	
+	<script>
+		window.onload = function() 
+		{
+			//display loader on page load 
+			$('.loader').fadeOut(3500);
+		}
+	
+	</script>
 <body>
 	<nav class="navbar navbar-default" role="navigation">
 		<div class="container">
