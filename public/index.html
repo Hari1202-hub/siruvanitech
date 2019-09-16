@@ -43,6 +43,7 @@
 	<link href="color/default.css" rel="stylesheet" media="screen">
 	<link href="https://fonts.googleapis.com/css?family=Cabin|Noto+Sans+HK|Source+Sans+Pro&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="manifest" href="manifest.json">
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145880951-1"></script>
 <script>
@@ -855,6 +856,11 @@
 	<script src="js/stellar.js"></script>
 	<script src="contactform/contactform.js"></script>
 	<script src="js/custom.js"></script>
+	<script src="sw.js">
+		if ('serviceWorker' in navigator) {
+		  navigator.serviceWorker.register('sw.js');
+		}
+		</script>
 	<script type="text/javascript">
 		var Tawk_API=Tawk_API||{},Tawk_LoadStart=new Date();(function(){var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];s1.async=true;s1.src='https://embed.tawk.to/5d0b83a353d10a56bd7b0953/default';s1.charset='UTF-8';s1.setAttribute('crossorigin','*');s0.parentNode.insertBefore(s1,s0);})();
 	</script>
