@@ -1,17 +1,17 @@
 {
     "name": "Siruvani Tech Enterprises",
     "short_name" : "STE",
-    "start_url": "index.html?utm_source=homescreen",
+    "start_url": ".",
     "scope" : "./",
     "icons": [
         {
-            "src": "public/icon.png",
-            "sizes": "1028x1028",
+            "src": "appicon.png",
+            "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "public/icon.png",
-            "sizes": "1028x1028",
+            "src": "appicon.png",
+            "sizes": "512x512",
             "type": "image/png"
         }
     ],
